@@ -18,14 +18,44 @@ nav{
 li{
     list-style:none;
     font-family:'Courier New', Courier, monospace;
+    coleur: #333;
 }
 @media (max-width: 768px) {
   nav {
+    
     display: flex;
-    flex-direction: column;
   }
 
   section {
     padding: 20px;
   }
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.6;
+  margin: 20px;
+  text-align: center;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
